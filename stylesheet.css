@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  font-family: Verdana;
+  color: white;
+}
+
+a {
+  color: powder-blue;
+}
+
+a:hover {
+  color: white;
+}
+
