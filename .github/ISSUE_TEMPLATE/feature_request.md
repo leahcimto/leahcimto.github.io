@@ -1,20 +1,17 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
+about: Suggest an idea for leahcimto's website.
+title: "[Feature Request]"
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
+**Describe the feature you'd like**
 A clear and concise description of what you want to happen.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**List all of the benefits that this feature will give us**
+A clear and concise list of any benefits that this feature would start.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**List all of the bad stuff that this feature will give us**
+A clear and concise list of any damage that this feature would cause.
