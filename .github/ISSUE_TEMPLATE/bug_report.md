@@ -2,8 +2,8 @@
 name: Bug report
 about: Create a report to help leahcimto's website improve.
 title: "[Bug Report]"
-labels: ''
-assignees: ''
+labels: 'bug'
+assignees: 'leahcimto'
 
 ---
 
