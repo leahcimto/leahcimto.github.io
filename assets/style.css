@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  font-family: Verdana;
+  color: white;
+
+  margin: 0px;
+}
+main {
+  text-align: center;
+}
+
+#test-dummy {
+  display: none;
+}
+
+.description {
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  margin: 20px;
+}
+.user-links {
+  color: white;
+}
+
+#user-status {
+  height: 53px;
+}
+#user-status .loader {
+  width: 23px;
+  height: 23px;
+}
+
+#user-bio {
+  height: 73px;
+}
+#user-bio .loader {
+  width: 50px;
+  height: 50px;
+}
+
+#user-stats {
+  height: 73px;
+}
+#user-stats .loader {
+  width: 50px;
+  height: 50px;
+}
+
+a {
+  color: #9eadff;
+}
+a:hover {
+  color: white;
+}
+ul {
+  margin-block: 0px;
+  margin-inline: 0px;
+  padding-inline: 0px;
+  list-style-position: inside;
+}
+li {
+  padding-bottom: 10px;
+}
+
+.loader {
+  margin: auto;
+  display: inline-block;
+  border-radius: 50%;
+
+  border: 3px solid #9eadff;
+  animation: loader 1.5s infinite;
+}
+.loading-text {
+  margin: auto;
+  font-size: 20px;
+  font-family: monospace;
+
+  animation: blinking 1.5s infinite;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+@keyframes loader {
+  0%   {transform: rotate3d(0, 1, 1, 0deg  );}
+  50%  {transform: rotate3d(0, 1, 1, 180deg);}
+  100% {transform: rotate3d(0, 1, 1, 360deg);}
+}
+@keyframes blinking {
+  0%   {opacity: 1;}
+  50%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+footer {
+  background-color: #0e0657;
+  color: white;
+
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+footer * {
+  padding: 5px 0px;
+  display: block;
+}
+footer a[rel="license"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

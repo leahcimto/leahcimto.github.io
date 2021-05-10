@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for leahcimto's website.
 title: "[Feature Request]"
-labels: ''
+labels: 'enhancement'
 assignees: 'leahcimto'
 
 ---
