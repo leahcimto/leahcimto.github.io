@@ -27,8 +27,7 @@ fetch("https://api.github.com/users/leahcimto")
     })
 ;
 // Fetch the repos you have and their stats (used to count all the stars you've gained)
-// (Note that gist stars aren't recorded. I did want to, but the API doesn't provide them, so instead I'll have to load a ton of webpages just to do that
-// (like how I did with fetching your user status).)
+// (Note that gist stars aren't recorded.)
 fetch("https://api.github.com/users/leahcimto/repos")
     .then(response => response.json())
     .then(data => {
@@ -39,7 +38,7 @@ fetch("https://api.github.com/users/leahcimto/repos")
         userStats.innerHTML = "<b>" + userStats.innerText + " " + starsGained + "</b>";
     })
 ;
-// Fetch ALL the content from https://github.com/leahcimto, and get the status from their since the github API doesn't provide your status :(
+// Fetch ALL the content from https://github.com/leahcimto, and get the status from there since the github API doesn't provide your status :(
 // This method is slow and requires like 3x loading time, but I think that it's the only way to do it.
 $.get({
     crossOrigin: true,
