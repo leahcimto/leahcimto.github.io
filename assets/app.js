@@ -18,7 +18,7 @@ $.ajaxPrefilter(function (options) {
 fetch("https://api.github.com/users/leahcimto")
     .then(response => response.json())
     .then(data => {
-        userBio.innerHTML = data.bio;
+        userBio.innerText = data.bio;
         userStats.innerText =
           "Followers: "    + data.followers + " | " +
           "Following: "    + data.following + " | " +
@@ -36,6 +36,17 @@ fetch("https://api.github.com/users/leahcimto/repos")
             starsGained += data[i].stargazers_count;
         }
         userStats.innerHTML = "<b>" + userStats.innerText + " " + starsGained + "</b>";
+    })
+;
+
+// fetch ocular status
+fetch("https://my-ocular.jeffalo.net/api/user/leahcimto")
+    .then(response => response.json())
+    .then(data => {
+        status.innerHTML =
+          "Ocular Status: "    + data.status + " | " +
+
+        ;
     })
 ;
 // Fetch ALL the content from https://github.com/leahcimto, and get the status from there since the github API doesn't provide your status :(
