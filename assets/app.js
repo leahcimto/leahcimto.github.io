@@ -39,16 +39,6 @@ fetch("https://api.github.com/users/leahcimto/repos")
     })
 ;
 
-// fetch ocular status
-fetch("https://my-ocular.jeffalo.net/api/user/leahcimto")
-    .then(response => response.json())
-    .then(data => {
-        status.innerHTML =
-          "Ocular Status: "    + data.status + " | " +
-
-        ;
-    })
-;
 // Fetch ALL the content from https://github.com/leahcimto, and get the status from there since the github API doesn't provide your status :(
 // This method is slow and requires like 3x loading time, but I think that it's the only way to do it.
 $.get({
