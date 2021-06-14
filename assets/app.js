@@ -1,3 +1,4 @@
+/*
 "use strict";
 
 var i;
@@ -57,3 +58,5 @@ $.get({
 });
 // Also, the method of fetching is a bit different than the way all the other data is being fetched because github.com's CORS Policy is more strict than
 // api.github.com's one.
+
+*/
